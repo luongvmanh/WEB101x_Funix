@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        H1{
+            text-align: center;
+            color: #f62f2f;
+        }
+        /*Univeral selector*/
+        /* *{
+            background-color: orange;
+        } */
+
+        /* class */
+        /* .orange{
+            background-color: orange;
+        } */
+
+        /*id */
+        /* #blue{
+            color: #3a4be2;
+        } */
+
+        /*child, direct child ">"*/
+        /* div b{
+            color: #f14545;
+        }
+        ul > li{
+            color: blueviolet;
+        } */
+
+        /*combination with "," */
+        /* span, .blue{
+            background-color: #45f156;
+        }     */
+
+
+        /*sibling: tilder ~ to select elements after; "+" to choose the only one "direct sibling" after */
+        /* li.red ~ li{
+            color: red;
+        } */
+        /* li.red + li{
+            color: red;
+        } */
+
+        /*pseudo classes */
+        /* li:hover{
+            background-color: #dca5a5;
+            opacity: 0.8;
+        } */
+        /*focus is for <input> */
+        /* input:focus{
+            background-color: #d67777;
+        } */
+
+        /*input with required attribute*/
+        /* input:required{
+            background-color: aqua;
+        } */
+
+        /*input with a checked checkbox*/
+        /* input:checked{
+            margin: 25px;
+        } */
+        /* input:disabled{
+            margin: 25px;
+        } */
+
+
+        /*nth-child */
+        /* li:first-child, li:last-child{
+            background-color: plum;
+        } */
+        /*select the third child */
+        /* li:nth-child(3){
+            background-color: plum;
+        } */
+
+        /*select the even child (every other elements) */
+        /* li:nth-child(2n){
+            background-color: plum;
+        } */
+
+        /*select the odd child */
+        /* li:nth-child(2n-1){
+            background-color: peru;
+        }  */
+
+        /*select the odd child from the bottom up*/
+        /* li:nth-last-child(2n-1){
+            background-color: peru;
+        } */
+
+        /*select element which is the only child of a parent element */
+        /* span:only-child{
+            background-color: aquamarine;
+        } */
+
+        /*select the first element of a type*/
+        /* span:first-of-type{
+            background-color: aqua;
+        } */
+
+        /*select the last element of a type*/
+        /* li:last-of-type{
+            background-color: aqua;
+        } */
+
+        /*select the nth element of a type*/
+        /* li:nth-of-type(2){
+            background-color: aqua;
+        } */
+
+        /*select the ? element of a type*/
+        /* li:nth-last-of-type(2){
+            background-color: aqua;
+        } */
+
+        /*select where there has the only element of a type*/
+        /* span:only-of-type{
+            background-color: aqua;
+        } */
+
+        /*select the elements except the one with ":not()" */
+        /* li:not(.red){
+            background-color: #f62f2f;
+        } */
+
+        /*pseudo element(2)*/
+        /* div.orange::before{
+            content: 'BEFORE';
+            background: orange;
+        } */
+        /* div.orange::after{
+            content: 'AFTER';
+            background: orange;
+        } */
+
+        /*Attribute */
+        /* [data-red]{
+            background-color: #f62f2f;
+        } */
+
+        [color-red="true"]{
+            background-color: #f62f2f;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>CSS SELECTORS</h1>
+    <p>All kind of selectors are included in this practice (from Web dev simple Youtube channe)</p>
+    <div class="orange">This is a div</div>
+    <span color-red="true" id="blue">This is a span</span>
+    <span data-red id="blue">This is a span 2</span>
+    <div>
+        <span>
+            <b>nested text</b>
+        </span>
+    </div>
+    <ul>
+        <li>Item 1</li>
+        <li class="red">Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <span>This is the last element</span>
+    </ul>
+    <input type="text">
+    <input required type="text" name="" id="">
+    <input type="checkbox" class="checkbox">
+    <input type="checkbox" class="checkbox" disabled>
+</body>
+</html>

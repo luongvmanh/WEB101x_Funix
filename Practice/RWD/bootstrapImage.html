@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Images</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div>
+        <h2>Rounded Corners</h2>
+        <p>.img-rounded class adds rounded corners to an image (not available in IE8):</p>
+        <img class="img-rounded" src="Cat03.jpg" alt="Cat" width="30%">
+    </div>
+    <div>
+        <h2>Circle</h2>
+        <p>.img-circle class shapes the image to a circle(not available in IE8):</p>
+        <img class="img-responsive img-circle" src="tiger.jpg" alt="tiger" width="30%">
+    </div>
+    <div>
+        <h2>Thumbnail</h2>
+        <p>The .img-thumbnail class creates a thumbnail of the image:</p>
+        <img class="img-thumbnail" src="sea.jpg" alt="tiger" width="30%">
+    </div>
+    <div class="container">
+        <h2>Image Gallery</h2>
+        <p>The .thumbnail class can be used to display an image gallery.</p>
+        <p>The .caption class adds proper padding and a dark grey color to text inside thumbnails.</p>
+        <p>Click on the images to enlarge them.</p>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="Cat03.jpg" alt="" style="width: 100%;">
+                    <div class="caption">
+                        <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="sea.jpg" alt="" style="width: 100%;">
+                    <div class="caption">
+                        <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img src="tiger.jpg" alt="" style="width: 100%;">
+                    <div class="caption">
+                        <p>Lorem ipsum donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2>Responsive Embed Videos</h2>
+    <div class="container">
+        <h2>Responsive Embed 16:9</h2>
+        <p>Create a responsive video and scale it nicely to the parent element with an 16:9 aspect ratio</p>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0"></iframe>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Responsive Embed 4:3</h2>
+        <p>Create a responsive video and scale it nicely to the parent element with an 4:3 aspect ratio</p>
+        <div class="embed-responsive embed-responsive-4by3">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0"></iframe>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

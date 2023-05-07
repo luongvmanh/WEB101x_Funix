@@ -1,0 +1,25 @@
+a{
+    color: yellow;
+}
+
+ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+ul li:hover{
+    background-color: aquamarine;
+}
+
+@media screen and (max-width: 600px){
+    p{
+        background-color: green;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    p{
+        background-color: yellow;
+    }
+}

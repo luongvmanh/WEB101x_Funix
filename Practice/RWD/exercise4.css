@@ -1,0 +1,40 @@
+.header{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.topnav a{
+    color: #ffffff;
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+
+/*Create 3 columns next to each other */
+.column{
+    width: 33%;
+    float: left;
+}
+
+/*Clear float after these columns */
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Responsive layout- make 3 columns on top of each other on smaller screens.*/
+@media screen and (max-width: 600px){
+    .column{
+        width: 100%;
+    }
+}

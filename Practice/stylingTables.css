@@ -1,0 +1,56 @@
+table.cal{
+    border: 3px solid blue;
+    color:#06425C;
+    border-radius: 0 0 25px 25px;
+    border-spacing: 0;
+}
+
+tr:nth-child(odd){
+    background: #a5cffa
+    ;
+}
+
+tr:nth-child(even){
+    background: #fae0b4;;
+} 
+
+tr:last-child{
+    border-radius: 0 0 25px 25px;
+}
+
+.cal caption{
+    text-transform: uppercase;
+    background-color: #666666;
+    color: #ffffff;
+    border-radius: 25px 25px 0 0;
+}
+
+.cal th, .cal td{
+    margin: 2px;
+    padding-bottom: 2px;
+}
+
+th{
+    text-align: center;
+    background: #ffffff;
+}
+
+.cal td{
+    width: 75px;
+    height: 75px;
+    vertical-align: top;
+}
+
+.old, .new {
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/holiday.png") no-repeat;
+}
+
+span{
+    display: block;
+    text-align: center;
+    visibility: hidden;
+}
+
+td:active>span{
+    visibility: visible;
+}
