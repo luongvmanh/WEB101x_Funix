@@ -1,0 +1,117 @@
+/*h2, p{
+    text-align: center;
+    color: red;
+}
+
+#para1{
+    text-align: center;
+    color: aqua;
+}
+
+p.center{
+    text-align: center;
+    color: blue;
+}
+
+p.large {
+    font-size: 200%;
+} */
+
+/*CSS Combinators*/
+/* div p{
+    background-color: yellow;
+} 
+
+div > p{
+    background-color: yellow;
+}
+
+div + p {
+    background-color: yellow;
+}
+
+div ~ p{
+    background-color: yellow;
+}*/
+
+/* CSS Pseudo-classes */
+/*
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: hotpink;
+}
+
+a:active{
+    color: blue;
+}
+
+a.highlight:hover{
+    color: #2bd956;
+    font-size: 22px;
+}
+
+div.div{
+    background-color: aqua;
+    padding: 25px;
+    text-align: center;
+    width: 60%;
+}
+
+div.div:hover{
+    background-color: #2bd956;
+}
+
+.tooltip p{
+    display: none;
+}
+
+.tooltip:hover p{
+    display: block;
+    color: orangered;
+    font-size: 20px;
+}
+p:first-child{
+    color: orchid;
+}
+
+p span:first-child{
+    color: pink;
+    font-weight: 600;
+}
+
+p:first-child span{
+    color: red;
+}
+
+/*Pseudo-Element */
+
+/*p.first-line::first-line{
+    color: red;
+    text-transform: uppercase;
+}
+
+p.intro::first-letter{
+    color: #ff0000;
+    font-size: 200%;
+}
+
+h1::before{
+    content: url(200w.gif);
+}
+
+::marker{
+    color: blueviolet;
+    font-size: 50px;
+}*/
+
+::selection{
+    color: white;
+    background-color: aqua;
+}

@@ -1,0 +1,35 @@
+
+html, body {
+    background-color: #ffffff;
+    }
+
+main {
+    width: 94%;
+    margin: 0 auto;
+}
+
+body {
+margin: 0;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 20px;
+font-weight: normal;
+color: #404040;
+}
+
+h1 {
+font-size: 400%;
+margin: 0;
+padding: 0;
+}
+
+h1, h2{
+text-align: center;
+text-transform: uppercase;
+}
+
+
+.column {
+    width:30%;
+    display: inline-block;
+    margin-left: 2%;
+}

@@ -1,0 +1,39 @@
+body{
+    margin-bottom: 100px;
+    background-image: url("pizzaEdit.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-family: "Sofia", "Satisfy", "Montserrat";
+}
+
+section{
+    font-size: 120%;
+}
+img{
+    width: 32px;
+}
+
+h1{
+    font-size: 3.5em;
+}
+
+h2{
+    display: inline-block;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.yellow{
+    color: #f5b942;
+}
+
+.orangeRed{
+    color: #f5542c;
+}
+
+p{
+    line-height: 15px;
+}

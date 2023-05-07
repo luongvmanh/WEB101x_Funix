@@ -1,0 +1,33 @@
+body{
+    margin-top: 50px;
+    margin: 40px 40px;
+    padding: 20px 20px;
+    border: dashed rgb(26, 29, 215);
+    border-width: 1px;
+}
+
+section{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    
+}
+i{
+    color: #fa5514;
+    text-shadow: 1px 1px 2px rgb(13, 108, 186);
+    font-size: 50px;
+}
+span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    
+
+}
+div{
+    display: inline-block;
+    margin-left: 20px;
+    width: 50%;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}

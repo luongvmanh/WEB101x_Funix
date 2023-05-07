@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Nav Example</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h2>Nav Menus</h2>
+    <p>Basic horizontal menu:</p>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" href="">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="">Disabled</a>
+        </li>
+    </ul>
+    <h2>Vertical</h2>
+    <p>Basic horizontal menu:</p>
+    <ul class="nav justify-content-center flex-column">
+        <li class="nav-item">
+            <a class="nav-link" href="">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="">Disabled</a>
+        </li>
+    </ul>
+    <h2>Nav Tabs</h2>
+    <p>Basic nav tabs:</p>
+    <ul class="nav nav-tabs nav-justified">
+        <li class="nav-item">
+            <a class="nav-link" href="">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="">Disabled</a>
+        </li>
+    </ul>
+    <h2>Nav Pills</h2>
+    <p>Basic horizontal menu:</p>
+    <ul class="nav nav-pills nav-justified">
+        <li class="nav-item">
+            <a class="nav-link active" href="">Active</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="">Disabled</a>
+        </li>
+    </ul>
+    <h2>Pills with Dropdown</h2>
+    <p>Basic dropdown menu:</p>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link active" href="">Active</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="">Dropdown</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="">Link1</a>
+                <a class="dropdown-item" href="">Link1</a>
+                <a class="dropdown-item" href="">Link1</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="">Disabled</a>
+        </li>
+    </ul>
+    <hr>
+    <h2>Tabs with Dropdown</h2>
+    <p>Basic dropdown menu:</p>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" href="">Active</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="">Dropdown</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="">Link1</a>
+                <a class="dropdown-item" href="">Link1</a>
+                <a class="dropdown-item" href="">Link1</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="">Disabled</a>
+        </li>
+    </ul>
+    <hr>
+    <!-- Nav tabs-->
+    <h2>Toggleable/Dynamic Tabs</h2>
+    <p>Basic toggleable menu:</p>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="tab" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#menu1">Menu 1</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" href="#menu2">Menu 2</a>
+        </li>
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div class="tab-pane container active" id="home">
+            <h3>Go HOME</h3>
+            <p>This is some placeholder content the Home tab's associated content. 
+                Clicking another tab will toggle the visibility of this one for the next. 
+                The tab JavaScript swaps classes to control the content visibility and styling. 
+                You can use it with tabs, pills, and any other .nav-powered navigation.</p>
+        </div>
+        <div class="tab-pane container fade" id="menu1"><br>
+            <h3>MENU 1</h3>
+            <p>This is some placeholder content the Home tab's associated content. 
+                Clicking another tab will toggle the visibility of this one for the next. 
+                The tab JavaScript swaps classes to control the content visibility and styling. 
+                You can use it with tabs, pills, and any other .nav-powered navigation.</p>
+        </div>
+        <div class="tab-pane container fade" id="menu2"><br>
+            <h3>MENU 2</h3>
+            <p>In line with the ARIA Authoring Practices pattern, only the currently active 
+                tab receives keyboard focus. When the JavaScript plugin is initialized, 
+                it will set tabindex="-1" on all inactive tab controls. Once the currently 
+                active tab has focus, the cursor keys activate the previous/next tab, 
+                with the plugin changing the roving tabindex accordingly. However, 
+                note that the JavaScript plugin does not distinguish between horizontal 
+                and vertical tab lists when it comes to cursor key interactions: 
+                regardless of the tab list’s orientation, both the up and left cursor go to 
+                the previous tab, and down and right cursor go to the next tab.</p>
+        </div>
+    </div>
+    <hr>
+    <!-- Nav pills-->
+    <h2>Toggleable/Dynamic Pills</h2>
+    <p>Basic toggleable pill menu:</p>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link active" data-bs-toggle="pill" href="#home1">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="pill" href="#menu3">Menu 3</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="pill" href="#menu4">Menu 4</a>
+        </li>
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content">
+        <div class="tab-pane container active" id="home1">
+            <h3>Go HOME</h3>
+            <p>This is some placeholder content the Home tab's associated content. 
+                Clicking another tab will toggle the visibility of this one for the next. 
+                The tab JavaScript swaps classes to control the content visibility and styling. 
+                You can use it with tabs, pills, and any other .nav-powered navigation.</p>
+        </div>
+        <div class="tab-pane container fade" id="menu3"><br>
+            <h3>MENU 3</h3>
+            <p>This is some placeholder content the Home tab's associated content. 
+                Clicking another tab will toggle the visibility of this one for the next. 
+                The tab JavaScript swaps classes to control the content visibility and styling. 
+                You can use it with tabs, pills, and any other .nav-powered navigation.</p>
+        </div>
+        <div class="tab-pane container fade" id="menu4"><br>
+            <h3>MENU 4</h3>
+            <p>In line with the ARIA Authoring Practices pattern, only the currently active 
+                tab receives keyboard focus. When the JavaScript plugin is initialized, 
+                it will set tabindex="-1" on all inactive tab controls. Once the currently 
+                active tab has focus, the cursor keys activate the previous/next tab, 
+                with the plugin changing the roving tabindex accordingly. However, 
+                note that the JavaScript plugin does not distinguish between horizontal 
+                and vertical tab lists when it comes to cursor key interactions: 
+                regardless of the tab list’s orientation, both the up and left cursor go to 
+                the previous tab, and down and right cursor go to the next tab.</p>
+        </div>
+    </div>
+    <hr>
+</body>
+</html>

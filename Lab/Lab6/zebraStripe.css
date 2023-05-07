@@ -1,0 +1,56 @@
+
+table.zebra{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    width: 50%;
+    margin-left: 25%;
+    padding: 0;
+    line-height: 50px;
+    border-spacing: 0;
+    margin-top: 0;
+    box-shadow: 10px 10px 5px rgba(141, 140, 140, 0.305);
+    border-bottom: 3px solid #41b589;
+}
+
+.zebra tr th:first-child, td:first-child{
+    padding-left: 15px;
+}
+
+
+/* Border-radius two top corners */
+.zebra th:nth-child(1){
+    border-radius: 5px 0 0 0;
+}
+
+.zebra th:nth-child(4){
+    border-radius: 0 5px 0 0;;
+}
+
+.zebra th{
+    color: #fff;
+    background-color: #41b589;
+    padding: 0;
+}
+
+
+/* row opacity and hover */
+.zebra tr{
+    opacity: 0.8;
+}
+
+.zebra tr:hover{
+    opacity: 1;
+}
+
+/* Make text shadow and border of rows */
+ .zebra th, td{
+    text-shadow: 1px 1px 1px #7b8380;
+    border-bottom: 2px solid #aaa7a7;
+}
+
+/* Color the 2nd row */
+.zebra tr:nth-child(2){
+    color:#41b589;
+    background-color: #e3dcdc10;
+}

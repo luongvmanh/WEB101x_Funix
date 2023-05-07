@@ -1,0 +1,54 @@
+caption{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+table.team{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 60px;
+    width: 75%;
+    margin-left: 15%;
+    padding: 0;
+}
+
+.team th{
+    color:#ffffff;
+    background: linear-gradient(#3c9e43 30%, #aba23c 90%);
+    background: -moz-linear-gradient(#3c9e43 30%, #aba23c 90%);
+    background: -ms-linear-gradient(#3c9e43 30%, #aba23c 90%);
+    background: -o-linear-gradient(#3c9e43 30%, #aba23c 90%);
+    border-radius: 5px 5px 0 0;
+    border-bottom:#f7d045 solid 3px;
+    box-shadow: 0 0 2px 2px #fd6584, 0 0 3px 5px #66ccff; /* offset-x, offset-y, blur-radius, spread-radius, color*/
+}
+
+.team td{
+    color: #000;
+    font-weight: 500;
+    background-color: #d8e8a3;
+    border-radius: 2px;
+    text-shadow: 1px 1px 2px #558abb; /* offset-x, offset-y, blur-radius, color */
+}
+
+tr th, tr td{
+    padding-left: 15px;
+}
+
+tr{
+    opacity: .8;
+}
+
+tr:hover{
+    opacity: 1;
+}
+
+.team tr:first-child{
+    text-align: left;
+}
+
+/* Apply for 2nd, 3rd child. n starts with 0. */
+.team tr th:nth-child(n+2), td:nth-child(n+2){
+    text-align: center;
+}
