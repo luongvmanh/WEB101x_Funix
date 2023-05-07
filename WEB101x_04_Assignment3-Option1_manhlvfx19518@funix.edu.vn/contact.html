@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi's Cake</title>
+    <script src="https://kit.fontawesome.com/486c8ab432.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <header>
+        <div class="chi">
+            <h1 ><img src="pictures/330202.png" width="30" alt="Vietnam's flag icon"> Chi's Cake</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Products</a>
+                    <ul>
+                        <li><a href="yellowCake.html">Classic Yellow Cake with Chocolate Frosting</a></li>
+                        <li><a href="coconutBundt.html">Coconut Bundt Cake</a></li>
+                        <li><a href="creamCheese.html">Cream Cheese Pound Cake</a></li>
+                        <li><a href="germanChocolatecake.html">German Chocolate Cake</a></li>
+                    </ul>
+                </li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="aboutme.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>For more information, contact:</h2>
+        <a href="#"><i class="fa-solid fa-phone"></i> Hotline: 0989898982</a><br>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i> Facebook</a><br>
+        <a href="#"><i class="fa-brands fa-twitter"></i> Twitter</a><br>
+        <a href="#"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+        <form action="">
+            <fieldset>
+                <legend class="legend">Contact me</legend>
+                <hr>
+                <div>
+                    <label for="name">Your name:</label>
+                    <input type="text" name="name" id="name" class="input" maxlength="100" placeholder="Please enter your full name" required>
+                    <span id="typeName" class="error"></span>
+                </div>
+                <div>
+                    <label for="email">Your email:</label>
+                    <input type="email" id="email" class="input" name="email" maxlength="100" placeholder="Please enter your email" required>
+                    <span id="typeEmail" class="error"></span>
+                </div>
+                <div>
+                    <label for="subject">Subject:</label>
+                    <input type="text" name="subject" id="subject" class="input" minlength="50" maxlength="250" required>
+                    <span id="typeSubject" class="error"></span>
+                </div>
+                <div>
+                    <label for="content">Message:</label>
+                    <textarea name="content" id="content" class="input" maxlength="500" required></textarea>
+                    <span id="typeMessage" class="error"></span>
+                </div>
+                <div>
+                    <span></span>
+                    <input type="submit" id="submit" value="Send message" onclick="submitted()">
+                </div>
+                
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        &copy; 2023 by Chi's Cake
+    </footer>
+    <script src="js/contact.js"></script>
+</body>
+</html>

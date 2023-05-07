@@ -1,0 +1,118 @@
+body{
+    font-family: "Dancing Script", sans-serif;
+    font-size: 25px;
+    color: #6e1809ca;
+    background-color: #567ba146;
+    margin: 0;
+    padding: 0;
+}
+
+div.chi{
+    background-image: url("../pictures/classicBirthdayCake.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 500px 0 200px 0;
+    
+}
+
+nav{
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #f39d9dc8;
+}
+
+nav > ul > li{
+    width: 15%;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav a{
+    text-decoration: none;
+    display: block;
+}
+
+nav li a:hover{
+    color: #ffecec;
+    background-color: #65535391;
+    border-radius: 25%;
+    transition: 0.3s;
+}
+/* Sub Menus */
+nav li li{
+    font-size: .8em;
+    overflow: hidden;
+    text-align: center;
+    line-height: 20px;
+}
+nav li li:first-child{
+    padding-top: 20px;
+}
+nav li li a{
+    padding: 5px;
+}
+
+nav li ul{
+    position: absolute;
+    display: none;
+    width: inherit;
+    border-radius: 10px;
+}
+nav li:hover ul{
+    display:block;
+}
+
+main{
+    padding: 0 20px;
+}
+
+main a{
+    color: #6e1809ca;
+}
+
+footer{
+    padding: 10px 20px;
+
+}
+
+h1{
+    font-size: 2em;
+    color: #24128e;
+    position: absolute;
+    margin-top: 200px;
+    background-color: rgb(244, 190, 124);
+    width: 100%;
+    opacity: 0.5;
+    text-align: center;
+
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+h3{
+    font-size: 1.2em;
+}
+
+h4{
+    font-size: 1em;
+}
+
+h5{
+    font-size: 0.8em;
+}
+
+h5{
+    font-size: 0.6em;
+}
+

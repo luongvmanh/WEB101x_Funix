@@ -1,0 +1,91 @@
+form{
+    margin: 0 auto;
+    padding: 20px 20px;
+    width: 70%;
+    align-items: center;
+}
+
+fieldset{
+    border: none;
+}
+
+.legend{
+    font-size: 150%;
+}
+
+::placeholder, select > option{
+    font-family: "Dancing Script", sans-serif;
+    color: #6e1809ca;
+    font-size: 1.5em;
+    opacity: .4;
+}
+
+div{
+    display: block;
+}
+
+div label, span{
+    display: inline-block;
+    width: 25%;
+    text-align: left;
+    align-items: center;
+    padding: 1% 1%;
+    margin-top: 0;
+}
+
+.input{
+    display: inline-block;
+    width: 60%;
+    text-align: left;
+    align-items: center;
+    border: 1px solid #6e1809ca;
+    border-radius: 2px;
+    padding: 5px 5px;
+    margin: 10px 10px 10px 0;
+    line-height: 2em;
+}
+
+#content, #message{
+    padding: 20px 5px;
+    margin-right: 0;
+}
+
+#cake{
+    margin-right: 0;
+}
+
+optgroup {
+    font-size: 1.2em;
+}
+
+
+
+#submit, #order{
+    color: #ffffff;
+    width: 25%;
+    background-color: #6e1809ca;
+    border: none;
+    border-radius: 2px;
+    padding: 2% 4% 2% 0;
+    text-align: center;
+    font-family: "Dancing Script", sans-serif;
+    font-size: 1em;
+}
+
+.label{
+    width: 5%;
+}
+
+
+.error{
+    color: #fb0707;
+    font-size: 20px;
+    width: 80%;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Questions:
+How to align the label and input better than I did ?*/

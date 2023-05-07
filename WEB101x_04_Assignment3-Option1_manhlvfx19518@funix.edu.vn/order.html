@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi's Cake</title>
+    <script src="https://kit.fontawesome.com/486c8ab432.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+    <header>
+        <div class="chi">
+            <h1 ><img src="pictures/330202.png" width="30" alt="Vietnam's flag icon"> Chi's Cake</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Products</a>
+                    <ul>
+                        <li><a href="yellowCake.html">Classic Yellow Cake with Chocolate Frosting</a></li>
+                        <li><a href="coconutBundt.html">Coconut Bundt Cake</a></li>
+                        <li><a href="creamCheese.html">Cream Cheese Pound Cake</a></li>
+                        <li><a href="germanChocolatecake.html">German Chocolate Cake</a></li>
+                    </ul>
+                </li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="aboutme.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend class="legend">Order now</legend>
+                <hr>
+                <div>
+                    <label for="cakes">Cake name:</label>
+                    <select name="cakes" id="cake" class="input">
+                        <option value="nothing">---Select cake---</option>
+                        <option value="yellowCake">Classic Yellow Cake with Chocolate Frosting</option>
+                        <option value="coconutBundt">Coconut Bundt Cake</option>
+                        <option value="creamCheese">Cream Cheese Pound Cake</option>
+                        <option value="germanChocolatecake">German Chocolate Cake</option>
+                    </select>
+                    <span id="verifyCake" class="error"></span>
+                </div>
+                <div>
+                    <label for="name_1">Your name:</label>
+                    <input type="text" id="name_1" class="input" name="name_1">
+                    <span id="yourName" class="error"></span>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <input type="text" id="message" class="input" name="message" placeholder="type your text that write on the cake">
+                    <span id="yourMessage" class="error"></span>
+                </div>
+                <div>
+                    <legend>Includes:
+                        <div>
+                            <span></span>
+                            <input type="checkbox" id="candle" value="candle">
+                            <label for="candle">Candle</label>
+                        </div>
+                        <div>
+                            <span></span>
+                            <input type="checkbox" id="firework" value="firework">
+                            <label for="firework">Firework</label>
+                        </div>
+                        <div>
+                            <span></span>
+                            <input type="checkbox" id="toys" value="toys">
+                            <label for="toys">Toys</label>
+                        </div>
+                    </legend>
+                </div>
+                <div>
+                    <label for="date">Deliver date:</label>
+                    <input type="date" id="date" class="input">
+                    <span id="dateError" class="error"></span>
+                </div>
+                <div>
+                    <label for="text">Deliver to:</label>
+                    <textarea id="text" name="text" class="input"></textarea>
+                    <span id="textError" class="error"></span>
+                </div>
+                <div>
+                    <legend>Call before deliver?</legend>
+                    <div>
+                        <span></span>
+                        <input type="radio" id="yes" name="call" value="yes">
+                        <label for="yes" class="label">Yes</label>
+                        <input type="radio" id="no" name="call" value="no" checked>
+                        <label for="no" class="label">No</label>
+                    </div>
+                    <div>
+                        <span></span>
+                        <input type="submit" id="order" value="Order Now" onclick="validate()">
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        &copy; 2023 by Chi's Cake
+    </footer>
+    <script src="js/order.js"></script>
+</body>
+</html>
